@@ -1,2 +1,2 @@
 # API Gateway
-An API gateway the redirects traffic and needs authentication key
+An API gateway that redirects traffic and requires an authentication key to be passed.

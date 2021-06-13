@@ -2,11 +2,16 @@
 const express = require('express')
 
 //Declerations
-const port = 5001
+const port = 9001
 const app = express()
 
 //Middleware
-app.use('/')
+app.use(express.json())
+
+//Routes
+app.get('/fakeapi', (req, res, next) =>{
+  res.send("hello from fake api server")
+})
 
 //Server
 app.listen(port, () =>{
