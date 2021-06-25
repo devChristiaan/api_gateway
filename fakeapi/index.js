@@ -10,7 +10,7 @@ app.use(express.json())
 
 //Routes
 app.get('/fakeapi', (req, res, next) =>{
-  res.send("hello from fake api server")
+  res.send("hello from fake api server agian")
 })
 
 //Server
