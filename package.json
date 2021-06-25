@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/devChristiaan/api_gateway#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
     "nodemon": "^2.0.7"
   }
 }
